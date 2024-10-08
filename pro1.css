@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-main{
+    background-color: #2a2a2a;
+    height: 100vh
+   ;
+}
+
+.container-nav{
+    /* background-color:rgb(129, 95, 52);    */
+    width: 100%; 
+    height: 100px;
+
+}
+.container-nav-ul{
+    background-color: burlywood;
+    height: 100px;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 10vh ;
+}
+.container-nav-li {
+    /* border: 1px solid black; */
+    color: black;
+    list-style-type: none;
+    padding: 20px;
+    margin: 6px;
+}
+
+.container-nav-li:hover{
+    background-color: bisque;
+    transition: .4s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 8px;
+}
+
+.a-nav{
+    color: black;
+    text-decoration: none;
+}
+
+.container-content{
+    background-color: #2a2a2a;
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    height: 70vh;
+}
+
+.img-content{
+    width: 17%;
+    height :auto;
+    margin: 300px;
+   
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.perkenalan-h2 {
+    color: #ffffff; /* Change text color to bright white */
+    font-size: 30px; /* Adjust font size */
+    font-weight: bold;
+    margin-left: 50px; /* Ensure it's aligned properly */
+    margin-bottom: 10px; /* Space between the heading and the paragraph below */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Slight glow effect */
+}
+
+
+.content-perkenalan {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 0; /* Remove space above to bring it closer to the heading */
+    margin-bottom: 40px;
+    color: white; /* Ensures readability on the dark background */
+}
+.container-footer{
+    background-color: rgb(152, 113, 63);
+    height: 80px;
+    height: 17vh;
+}
+
+.footer-contact{
+    /* display:  flex; */
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact-ul{
+    height: 70px;
+    /* display:  flex; */
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-li{
+    list-style-type: none;
+    padding: 2px;
+    margin: 2px;
+
+}
